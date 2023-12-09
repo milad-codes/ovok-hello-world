@@ -27,7 +27,7 @@ yarn install
 
 3. Run the application:
 ```bash
-npm run dev
+yarn start
 ``````
 
 The app should be accessible at http://localhost:3000/.
