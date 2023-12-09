@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+# OVOK Hello World
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A starter application made in Typescript-React and Tailwind for using the OVOK platform.
 
-## Available Scripts
+The example app demonstrates the following:
 
-In the project directory, you can run:
+1. Creating a new React app with tailwind and TypeScript
+2. Installing OVOK dependencies
+3. Connecting to our [developer dashboard platform](https://dashboard.dev.ovok.com/)
+4. Using OVOK REST APIs to query FHIR resources  
 
-### `yarn start`
+### Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Clone the repository If. In case you haven't started a project on OVOK, please follow our [10 minutes quickstart](https://docs.ovok.com/docs/10-minutes-quickstart) tutorial to register an OVOK project and store data.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+git clone https://github.com/your-username/ovok-hello-world.git
+cd ovok-hello-world
+``````
 
-### `yarn test`
+2. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+```bash
+yarn install
+``````
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Run the application:
+```bash
+npm run dev
+``````
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app should be accessible at http://localhost:3000/.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## About OVOK
+[OVOK](https://ovok.com/) is an innovative, API-first Digital Health Enablement Platform. It empowers developers to build modern, virtual-first healthcare experiences with ease.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Read our [documentation](https://docs.ovok.com/docs)
+* Create an [account on our dashboard platform](https://dashboard.dev.ovok.com/register)
+* Read our [access control rules](https://docs.ovok.com/docs/access-control-rules)
